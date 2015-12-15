@@ -1,0 +1,93 @@
+﻿<Page
+    x:Name="pageRoot"
+    x:Class="DaraMacMeanmainApp2015.blueTeamPage"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DaraMacMeanmainApp2015"
+    xmlns:common="using:DaraMacMeanmainApp2015.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">Mission 2: Blue Team</x:String>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource ="/Assets/blueTeamBG.jpg" Opacity="0.25"></ImageBrush>
+        </Grid.Background>
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backButton" Margin="39,59,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Top"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button"/>
+            <TextBlock x:Name="pageTitle" Text="{StaticResource AppName}" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40" RequestedTheme="Dark"/>
+        </Grid>
+        <ListView x:Name="listView" HorizontalAlignment="Left" Height="618" VerticalAlignment="Top" Width="630" Margin="10,10,0,0" Grid.Row="1" SelectionMode="None">
+            <TextBlock x:Name="intel1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Intel 1/8" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+            <TextBlock x:Name="intelText1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Directly across from the first winding bridge you cross in the mission is a control point with flickering screens. Approach it and activate the station log." VerticalAlignment="Top" Grid.Row="1" RequestedTheme="Dark" MaxWidth="700" Width="604" Height="66"/>
+            <Image x:Name="intelImg1" Height="268" Width="476" Source="Assets/intel/intel8.jpg"/>
+            <!--next item-->
+            <TextBlock x:Name="intel2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Intel 2/8" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+            <TextBlock x:Name="intelText2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Continue through the mission until you encounter several Jackals and Elites along one of the corridors. Walk straight to the back wall of the corridor, just past where the hallway turns left. To the right of the weapon rack, you'll find a large computer terminal along the back wall where you can collect the next piece of Intel." VerticalAlignment="Top" Grid.Row="1" RequestedTheme="Dark" MaxWidth="700" Width="604" Height="86"/>
+            <Image x:Name="intelImg2" Height="268" Width="476" Source="Assets/intel/intel9.jpg"/>
+            <!--next item-->
+            <TextBlock x:Name="intel3" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Intel 3/8" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+            <TextBlock x:Name="intelText3" HorizontalAlignment="Left" TextWrapping="Wrap" Text="This piece of Intel is located in a brown corridor that leads to the Control Center. Prior to entering the new area, you're going to need to do a bit of climbing in order to reach it. Make a right within the corridor as soon as you see a body on the ground. You'll need to climb up about three levels to finally reach a large platform. The platform will have a data pad sitting by itself." VerticalAlignment="Top" Grid.Row="1" RequestedTheme="Dark" MaxWidth="700" Width="604" Height="131"/>
+            <Image x:Name="intelImg3" Height="268" Width="476" Source="Assets/intel/intel10b.jpg"/>
+            <!--next item-->
+            <TextBlock x:Name="intel4" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Intel 4/8" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+            <TextBlock x:Name="intelText4" HorizontalAlignment="Left" TextWrapping="Wrap" Text="You'll make your way down some dark corridors here, using your flashlight to look around. After taking down the Energy Sword Zealot, head to the left side and look through several boxes and containers until you see a crawlspace. Head inside and pick up the Data Pad in the corner. " VerticalAlignment="Top" Grid.Row="1" RequestedTheme="Dark" MaxWidth="700" Width="604" Height="86"/>
+            <Image x:Name="intelImg4" Height="268" Width="476" Source="Assets/intel/intel11b.jpg"/>
+            <!--next item-->
+            <TextBlock x:Name="intel5" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Intel 5/8" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+            <TextBlock x:Name="intelText5" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Exit the windowed room that shows the Covenant exiting slipspace, and you'll see a control panel with green screens right as you enter the next room. Activate the log to collect the Intel." VerticalAlignment="Top" Grid.Row="1" RequestedTheme="Dark" MaxWidth="700" Width="604" Height="86"/>
+            <Image x:Name="intelImg5" Height="268" Width="476" Source="Assets/intel/intel12.jpg"/>
+            <!--next item-->
+            <TextBlock x:Name="intel6" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Intel 6/8" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+            <TextBlock x:Name="intelText6" HorizontalAlignment="Left" TextWrapping="Wrap" Text=" You will eventually reach a lab where you must face a pair of Hunters. Defeat the enemies, then search the ground near the center of the room to find a Data Pad near a dead body." VerticalAlignment="Top" Grid.Row="1" RequestedTheme="Dark" MaxWidth="700" Width="604" Height="86"/>
+            <Image x:Name="intelImg6" Height="268" Width="476" Source="Assets/intel/intel13.jpg"/>
+            <!--next item-->
+            <TextBlock x:Name="intel7" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Intel 7/8" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+            <TextBlock x:Name="intelText7" HorizontalAlignment="Left" TextWrapping="Wrap" Text="This activity log is just to the left of the four cylindrical containers right when you enter the big room. There are some orange lights near it that make it easy to find." VerticalAlignment="Top" Grid.Row="1" RequestedTheme="Dark" MaxWidth="700" Width="604" Height="86"/>
+            <Image x:Name="intelImg7" Height="268" Width="476" Source="Assets/intel/intel14.jpg"/>
+            <!--next item-->
+            <TextBlock x:Name="intel8" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Intel 8/8" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+            <TextBlock x:Name="intelText8" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Enter the narrow corridor leading to the Hangar Bay, just after destroying the vents. Follow the path of the corridor as it leads to the left. Pass through a pair of doorways, and straight ahead you will see a computer terminal " VerticalAlignment="Top" Grid.Row="1" RequestedTheme="Dark" MaxWidth="700" Width="604" Height="86"/>
+            <Image x:Name="intelImg8" Height="268" Width="476" Source="Assets/intel/intel15.jpg"/>
+            <!--next item-->
+        </ListView>
+        <ListView x:Name="listView1" HorizontalAlignment="Left" Height="608" VerticalAlignment="Top" Width="671" Margin="685,10,0,0" Grid.Row="1" SelectionMode="None">
+            <TextBlock x:Name="skull1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Skull: Black Eye" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+            <TextBlock x:Name="skullText1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Inside the reactor room, you'll need to jump on some crates, one of which is steaming. Proceed up these crates and onto a platform, where you'll see a weapons rack. Climb the platform behind the weapons rack, then turn left and jump onto another platform. Turn right and follow a pipe that's positioned along the wall. Jump across to a platform with a 'Keep Clear' sign, but don't listen to it as it's hiding the Black Eye Skull. Climb up onto that platform and look for a vent facing downward. Perform a Ground Pound and inside of this room, you'll find the skull positioned on a large canister." VerticalAlignment="Top" Grid.Row="1" RequestedTheme="Dark" MaxWidth="700" Width="604" Height="161"/>
+            <Image x:Name="skullImg1" Height="268" Width="476" Source="Assets/skulls/skull2.jpg"/>
+        </ListView>
+    </Grid>
+</Page>
+

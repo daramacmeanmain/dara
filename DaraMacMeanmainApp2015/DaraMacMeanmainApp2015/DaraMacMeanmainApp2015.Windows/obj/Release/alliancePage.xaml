@@ -1,0 +1,91 @@
+﻿<Page
+    x:Name="pageRoot"
+    x:Class="DaraMacMeanmainApp2015.alliancePage"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DaraMacMeanmainApp2015"
+    xmlns:common="using:DaraMacMeanmainApp2015.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">Mission 9: Alliance</x:String>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource ="/Assets/allianceBG.jpg" Opacity="0.25"></ImageBrush>
+        </Grid.Background>
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backButton" Margin="39,59,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Top"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button"/>
+            <TextBlock x:Name="pageTitle" Text="{StaticResource AppName}" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40" RequestedTheme="Dark"/>
+        </Grid>
+        <ListView x:Name="listView" HorizontalAlignment="Left" Height="618" VerticalAlignment="Top" Width="630" Margin="10,10,0,0" Grid.Row="1" SelectionMode="None">
+            <TextBlock x:Name="intel1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Intel 1/8" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+            <TextBlock x:Name="intelText1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="From the starting point, turn around and go straight back towards the shrine on the far wall. You'll find the Data Pad on the ground." VerticalAlignment="Top" Grid.Row="1" RequestedTheme="Dark" MaxWidth="700" Width="604" Height="46"/>
+            <Image x:Name="intelImg1" Height="268" Width="476" Source="Assets/intel/intel61.jpg"/>
+            <!--next item-->
+            <TextBlock x:Name="intel2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Intel 2/8" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+            <TextBlock x:Name="intelText2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Go the cliff with the Grunts huddled around the fire near where you first entered the camp. Run to the ledge of that cliff across from the Grunts. You'll see another Grunt sitting on a stone - he'll sing to you if you talk to him. Jump across to the pillar more toward the center of camp and walk to the ledge with the data pad to collect it." VerticalAlignment="Top" Grid.Row="1" RequestedTheme="Dark" MaxWidth="700" Width="604" Height="86"/>
+            <Image x:Name="intelImg2" Height="268" Width="476" Source="Assets/intel/intel62.jpg"/>
+            <!--next item-->
+            <TextBlock x:Name="intel3" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Intel 3/8" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+            <TextBlock x:Name="intelText3" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Cross the stone bridge at the entrance to the camp and drop down, and walk around the tunnel on your left. Now make your way past the ruins and into a makeshift medical area that you can scan to find this piece of Intel lying on a pillar." VerticalAlignment="Top" Grid.Row="1" RequestedTheme="Dark" MaxWidth="700" Width="604" Height="86"/>
+            <Image x:Name="intelImg3" Height="268" Width="476" Source="Assets/intel/intel63.jpg"/>
+            <!--next item-->
+            <TextBlock x:Name="intel4" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Intel 4/8" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+            <TextBlock x:Name="intelText4" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Walk forward toward the camp from the spawn area and climb the rocks on the left when you see your first Elite. Cross the stone bridge to the right and enter the tunnel directly ahead of you. About halfway through the tunnel you'll a data pad." VerticalAlignment="Top" Grid.Row="1" RequestedTheme="Dark" MaxWidth="700" Width="604" Height="86"/>
+            <Image x:Name="intelImg4" Height="268" Width="476" Source="Assets/intel/intel64.jpg"/>
+            <!--next item-->
+            <TextBlock x:Name="intel5" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Intel 5/8" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+            <TextBlock x:Name="intelText5" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Behind Dr. Halsey's platform is shallow cave with a few Sangheili boxes and equipment. Sitting on one of those boxes is a data pad." VerticalAlignment="Top" Grid.Row="1" RequestedTheme="Dark" MaxWidth="700" Width="604" Height="86"/>
+            <Image x:Name="intelImg5" Height="268" Width="476" Source="Assets/intel/intel65.jpg"/>
+            <!--next item-->
+            <TextBlock x:Name="intel6" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Intel 6/8" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+            <TextBlock x:Name="intelText6" HorizontalAlignment="Left" TextWrapping="Wrap" Text="A data pad is on the ground by a crate to the left of Palmer's Pelican." VerticalAlignment="Top" Grid.Row="1" RequestedTheme="Dark" MaxWidth="700" Width="604" Height="86"/>
+            <Image x:Name="intelImg6" Height="268" Width="476" Source="Assets/intel/intel66.jpg"/>
+            <!--next item-->
+            <TextBlock x:Name="intel7" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Intel 7/8" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+            <TextBlock x:Name="intelText7" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Climb up to the ruins to the right of Palmer's Pelican. A data pad is just on the edge of the ruins by some purple crates." VerticalAlignment="Top" Grid.Row="1" RequestedTheme="Dark" MaxWidth="700" Width="604" Height="86"/>
+            <Image x:Name="intelImg7" Height="268" Width="476" Source="Assets/intel/intel67.jpg"/>
+            <!--next item-->
+            <TextBlock x:Name="intel8" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Intel 8/8" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+            <TextBlock x:Name="intelText8" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Make your way to the back of the camp, towards Palmer, and climb the rock formation just past Halsey. Now climb up the collapsed pillar against the cliff, and jump to the standing pillar to find this piece of Intel." VerticalAlignment="Top" Grid.Row="1" RequestedTheme="Dark" MaxWidth="700" Width="604" Height="86"/>
+            <Image x:Name="intelImg8" Height="268" Width="476" Source="Assets/intel/intel68.jpg"/>
+            <!--next item-->
+        </ListView>
+        <ListView x:Name="listView1" HorizontalAlignment="Left" Height="608" VerticalAlignment="Top" Width="671" Margin="685,10,0,0" Grid.Row="1" SelectionMode="None">
+            <TextBlock x:Name="skull1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="No Skull" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+        </ListView>
+    </Grid>
+</Page>
+

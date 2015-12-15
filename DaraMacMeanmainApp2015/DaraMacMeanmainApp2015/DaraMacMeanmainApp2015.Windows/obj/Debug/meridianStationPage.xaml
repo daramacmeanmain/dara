@@ -1,0 +1,91 @@
+﻿<Page
+    x:Name="pageRoot"
+    x:Class="DaraMacMeanmainApp2015.meridianStationPage"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DaraMacMeanmainApp2015"
+    xmlns:common="using:DaraMacMeanmainApp2015.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">Mission 4: Meridian Station</x:String>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource ="/Assets/meridianStationBG.jpg"></ImageBrush>
+        </Grid.Background>
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backButton" Margin="39,59,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Top"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button"/>
+            <TextBlock x:Name="pageTitle" Text="{StaticResource AppName}" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40" RequestedTheme="Dark"/>
+        </Grid>
+        <ListView x:Name="listView" HorizontalAlignment="Left" Height="618" VerticalAlignment="Top" Width="630" Margin="10,10,0,0" Grid.Row="1" SelectionMode="None">
+            <TextBlock x:Name="intel1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Intel 1/8" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+            <TextBlock x:Name="intelText1" HorizontalAlignment="Left" TextWrapping="Wrap" Text=" The first Data Pad is found to the far right side of the interior station gate, on top of a yellow cylindrical container." VerticalAlignment="Top" Grid.Row="1" RequestedTheme="Dark" MaxWidth="700" Width="604" Height="46"/>
+            <Image x:Name="intelImg1" Height="268" Width="476" Source="Assets/intel/intel22.jpg"/>
+            <!--next item-->
+            <TextBlock x:Name="intel2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Intel 2/8" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+            <TextBlock x:Name="intelText2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="After crossing the main gate to town, take a left and walk up the ramp to the landing pad. Take an immediate left once you're up the ramp and you'll find a data pad on a container next to the construction vehicle." VerticalAlignment="Top" Grid.Row="1" RequestedTheme="Dark" MaxWidth="700" Width="604" Height="86"/>
+            <Image x:Name="intelImg2" Height="268" Width="476" Source="Assets/intel/intel23.jpg"/>
+            <!--next item-->
+            <TextBlock x:Name="intel3" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Intel 3/8" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+            <TextBlock x:Name="intelText3" HorizontalAlignment="Left" TextWrapping="Wrap" Text="There is a building just behind the center podium that has a vending machine on the bottom floor. Climb onto the box beside the vending machine to get onto the rooftop. The Data Pad is on a crate near the edge of the roof." VerticalAlignment="Top" Grid.Row="1" RequestedTheme="Dark" MaxWidth="700" Width="604" Height="86"/>
+            <Image x:Name="intelImg3" Height="268" Width="476" Source="Assets/intel/intel24.jpg"/>
+            <!--next item-->
+            <TextBlock x:Name="intel4" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Intel 4/8" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+            <TextBlock x:Name="intelText4" HorizontalAlignment="Left" TextWrapping="Wrap" Text="From there, jump down and look for the Deglass Team Personnel Log, which will be sitting atop a bin that's located right next to the Food Station. " VerticalAlignment="Top" Grid.Row="1" RequestedTheme="Dark" MaxWidth="700" Width="604" Height="86"/>
+            <Image x:Name="intelImg4" Height="268" Width="476" Source="Assets/intel/intel25.jpg"/>
+            <!--next item-->
+            <TextBlock x:Name="intel5" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Intel 5/8" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+            <TextBlock x:Name="intelText5" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Walk across to the building on the right and climb up to the rooftop. There is a Data Pad on a crate near a large tarp." VerticalAlignment="Top" Grid.Row="1" RequestedTheme="Dark" MaxWidth="700" Width="604" Height="86"/>
+            <Image x:Name="intelImg5" Height="268" Width="476" Source="Assets/intel/intel26.jpg"/>
+            <!--next item-->
+            <TextBlock x:Name="intel6" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Intel 6/8" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+            <TextBlock x:Name="intelText6" HorizontalAlignment="Left" TextWrapping="Wrap" Text="On the very far right corner of the area, locate a set of containers just before the fence perimeter. Several Meridian inhabitants should be standing nearby. The Data Pad will be sitting on the front crate." VerticalAlignment="Top" Grid.Row="1" RequestedTheme="Dark" MaxWidth="700" Width="604" Height="86"/>
+            <Image x:Name="intelImg6" Height="268" Width="476" Source="Assets/intel/intel27.jpg"/>
+            <!--next item-->
+            <TextBlock x:Name="intel7" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Intel 7/8" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+            <TextBlock x:Name="intelText7" HorizontalAlignment="Left" TextWrapping="Wrap" Text=" On the building just behind the main podium, climb up to the highest point. There is an antenna near a stack of containers, and the Data Pad will be on the top." VerticalAlignment="Top" Grid.Row="1" RequestedTheme="Dark" MaxWidth="700" Width="604" Height="86"/>
+            <Image x:Name="intelImg7" Height="268" Width="476" Source="Assets/intel/intel28.jpg"/>
+            <!--next item-->
+            <TextBlock x:Name="intel8" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Intel 8/8" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+            <TextBlock x:Name="intelText8" HorizontalAlignment="Left" TextWrapping="Wrap" Text="On the far left side of the area, there is a vending machine near the fence gate. The last Data Pad will be on a blue trash bin to the right." VerticalAlignment="Top" Grid.Row="1" RequestedTheme="Dark" MaxWidth="700" Width="604" Height="86"/>
+            <Image x:Name="intelImg8" Height="268" Width="476" Source="Assets/intel/intel29.jpg"/>
+            <!--next item-->
+        </ListView>
+        <ListView x:Name="listView1" HorizontalAlignment="Left" Height="608" VerticalAlignment="Top" Width="671" Margin="685,10,0,0" Grid.Row="1" SelectionMode="None">
+            <TextBlock x:Name="skull1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="No Skull" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+        </ListView>
+    </Grid>
+</Page>
+

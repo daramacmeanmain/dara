@@ -1,0 +1,101 @@
+﻿<Page
+    x:Name="pageRoot"
+    x:Class="DaraMacMeanmainApp2015.guardiansPage"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DaraMacMeanmainApp2015"
+    xmlns:common="using:DaraMacMeanmainApp2015.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">Mission 15: Guardians</x:String>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource ="/Assets/guardiansBG.jpg" Opacity="0.25"></ImageBrush>
+        </Grid.Background>
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backButton" Margin="39,59,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Top"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button"/>
+            <TextBlock x:Name="pageTitle" Text="{StaticResource AppName}" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40" RequestedTheme="Dark"/>
+        </Grid>
+        <ListView x:Name="listView" HorizontalAlignment="Left" Height="618" VerticalAlignment="Top" Width="630" Margin="10,10,0,0" Grid.Row="1" SelectionMode="None">
+            <TextBlock x:Name="intel1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Intel 1/10" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+            <TextBlock x:Name="intelText1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="The first Forerunner Console is on the ramp to the left of the exit in Exuberant's little zoo." VerticalAlignment="Top" Grid.Row="1" RequestedTheme="Dark" MaxWidth="700" Width="604" Height="46"/>
+            <Image x:Name="intelImg1" Height="268" Width="476" Source="Assets/intel/intel107.jpg"/>
+            <!--next item-->
+            <TextBlock x:Name="intel2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Intel 2/10" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+            <TextBlock x:Name="intelText2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="The second Forerunner Console is on the ramp to the right of the exit in Exuberant's little zoo." VerticalAlignment="Top" Grid.Row="1" RequestedTheme="Dark" MaxWidth="700" Width="604" Height="86"/>
+            <Image x:Name="intelImg2" Height="268" Width="476" Source="Assets/intel/intel108.jpg"/>
+            <!--next item-->
+            <TextBlock x:Name="intel3" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Intel 3/10" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+            <TextBlock x:Name="intelText3" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Just after Cortana gives her speech about the Created taking up the Mantel, jump to the highest platform in the middle of the next firefight between the Covenant and the Forerunners to find this piece of intel next to a dead Elite." VerticalAlignment="Top" Grid.Row="1" RequestedTheme="Dark" MaxWidth="700" Width="604" Height="86"/>
+            <Image x:Name="intelImg3" Height="268" Width="476" Source="Assets/intel/intel109.jpg"/>
+            <!--next item-->
+            <TextBlock x:Name="intel4" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Intel 4/10" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+            <TextBlock x:Name="intelText4" HorizontalAlignment="Left" TextWrapping="Wrap" Text="To the left of the Alpha Core is a crashed Covenant Phantom. There's a data pad in the rubble." VerticalAlignment="Top" Grid.Row="1" RequestedTheme="Dark" MaxWidth="700" Width="604" Height="86"/>
+            <Image x:Name="intelImg4" Height="268" Width="476" Source="Assets/intel/intel110.jpg"/>
+            <!--next item-->
+            <TextBlock x:Name="intel5" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Intel 5/10" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+            <TextBlock x:Name="intelText5" HorizontalAlignment="Left" TextWrapping="Wrap" Text="This piece of Intel can be nabbed from a small hill beside a crashed pelican above the Gamma Core." VerticalAlignment="Top" Grid.Row="1" RequestedTheme="Dark" MaxWidth="700" Width="604" Height="86"/>
+            <Image x:Name="intelImg5" Height="268" Width="476" Source="Assets/intel/intel111.jpg"/>
+            <!--next item-->
+            <TextBlock x:Name="intel6" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Intel 6/10" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+            <TextBlock x:Name="intelText6" HorizontalAlignment="Left" TextWrapping="Wrap" Text="In the middle of the map you'll fight some ghosts and see some Covenant turrets up on a ledge. You'll find a piece of intel up on the snowy ridge toward the direction you entered the map. Simply climb up it to pick it up." VerticalAlignment="Top" Grid.Row="1" RequestedTheme="Dark" MaxWidth="700" Width="604" Height="86"/>
+            <Image x:Name="intelImg6" Height="268" Width="476" Source="Assets/intel/intel112.jpg"/>
+            <!--next item-->
+            <TextBlock x:Name="intel7" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Intel 7/10" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+            <TextBlock x:Name="intelText7" HorizontalAlignment="Left" TextWrapping="Wrap" Text="You can find this piece of Intel by making your way up the snow ridge northwest of the large Covenant structure after you take on a group of Ghosts and turrets. Head past the gate, and then continue forward past the overturned Warthog until you spot this broken Constructor." VerticalAlignment="Top" Grid.Row="1" RequestedTheme="Dark" MaxWidth="700" Width="604" Height="86"/>
+            <Image x:Name="intelImg7" Height="268" Width="476" Source="Assets/intel/intel113.jpg"/>
+            <!--next item-->
+            <TextBlock x:Name="intel8" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Intel 8/10" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+            <TextBlock x:Name="intelText8" HorizontalAlignment="Left" TextWrapping="Wrap" Text="From the middle of the map, walk or drive through the pass just past the turrets. Look far to your left toward where Epsilon Core is, but don't enter that area. You'll see a dark, snowy ridge that you can climb up. At the top you'll find a Broken Constructor." VerticalAlignment="Top" Grid.Row="1" RequestedTheme="Dark" MaxWidth="700" Width="604" Height="86"/>
+            <Image x:Name="intelImg8" Height="268" Width="476" Source="Assets/intel/intel114.jpg"/>
+            <!--next item-->
+            <TextBlock x:Name="intel9" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Intel 9/8" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+            <TextBlock x:Name="intelText9" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Approach Epsilon Core from the south (aka Alpha Core or from the direction you entered the map), and take the dark tunnel path on the right when moving toward the core. The data pad is on the ground next to a ghost about halfway through the tunnel." VerticalAlignment="Top" Grid.Row="1" RequestedTheme="Dark" MaxWidth="700" Width="604" Height="86"/>
+            <Image x:Name="intelImg9" Height="268" Width="476" Source="Assets/intel/intel115.jpg"/>
+            <!--next item-->
+            <TextBlock x:Name="intel10" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Intel 10/10" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+            <TextBlock x:Name="intelText10" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Behind Epsilon core and just next to the cliff is a small dark snow cave with a Mantis. Walk just past the Mantis and pick up the data pad for your next piece of intel. If you're approaching from the Delta core, the cave is on your right." VerticalAlignment="Top" Grid.Row="1" RequestedTheme="Dark" MaxWidth="700" Width="604" Height="86"/>
+            <Image x:Name="intelImg10" Height="268" Width="476" Source="Assets/intel/intel116.jpg"/>
+            <!--next item-->
+        </ListView>
+        <ListView x:Name="listView1" HorizontalAlignment="Left" Height="608" VerticalAlignment="Top" Width="671" Margin="685,10,0,0" Grid.Row="1" SelectionMode="None">
+            <TextBlock x:Name="skull1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Skull: Tough Luck" VerticalAlignment="Top" Grid.Row="1" Margin="10,10,0,0" FontSize="32" RequestedTheme="Dark"/>
+            <TextBlock x:Name="skullText1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Proceed through the mission until you reach the area where you need to destroy the circular cores. Now you'll want to spot the crashed Pelican above you, and climb up onto it. Now look down to the right when looking at the tail of the aircraft, and you should spot this Skull resting in the snow at the base of a small pile of rocks." VerticalAlignment="Top" Grid.Row="1" RequestedTheme="Dark" MaxWidth="700" Width="604" Height="91"/>
+            <Image x:Name="skullImg1" Height="268" Width="476" Source="Assets/skulls/skull13.jpg"/>
+        </ListView>
+    </Grid>
+</Page>
+

@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BDFCB8C2-26CE-4B83-AA83-F7DDDE18C939}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DaraMacMeanmainApp2015</RootNamespace>
+    <AssemblyName>DaraMacMeanmainApp2015.Windows</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformVersion>8.1</TargetPlatformVersion>
+    <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <SynthesizeLinkMetadata>true</SynthesizeLinkMetadata>
+    <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>DaraMacMeanmainApp2015.Windows_StoreKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxBundlePlatforms>neutral</AppxBundlePlatforms>
+    <PackageCertificateThumbprint>7FD74C1163C87C863F88D7CA341EDF502E26DE2D</PackageCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="alliancePage.xaml.cs">
+      <DependentUpon>alliancePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="battleOfSunaionPage.xaml.cs">
+      <DependentUpon>battleOfSunaionPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="beforeTheStormPage.xaml.cs">
+      <DependentUpon>beforeTheStormPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="blueTeamPage.xaml.cs">
+      <DependentUpon>blueTeamPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Common\NavigationHelper.cs" />
+    <Compile Include="Common\ObservableDictionary.cs" />
+    <Compile Include="Common\RelayCommand.cs" />
+    <Compile Include="Common\SuspensionManager.cs" />
+    <Compile Include="enemyLinesPage.xaml.cs">
+      <DependentUpon>enemyLinesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="evacuationPage.xaml.cs">
+      <DependentUpon>evacuationPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="genesisPage.xaml.cs">
+      <DependentUpon>genesisPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="glassedPage.xaml.cs">
+      <DependentUpon>glassedPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="guardiansPage.xaml.cs">
+      <DependentUpon>guardiansPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="meridianStationPage.xaml.cs">
+      <DependentUpon>meridianStationPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="osirisPage.xaml.cs">
+      <DependentUpon>osirisPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="reunionPage.xaml.cs">
+      <DependentUpon>reunionPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="swordsOfSangheliosPage.xaml.cs">
+      <DependentUpon>swordsOfSangheliosPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="theBreakingPage.xaml.cs">
+      <DependentUpon>theBreakingPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="unconfirmedPage.xaml.cs">
+      <DependentUpon>unconfirmedPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="DaraMacMeanmainApp2015.Windows_StoreKey.pfx" />
+    <None Include="DaraMacMeanmainApp2015.Windows_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\allianceBG.jpg" />
+    <Content Include="Assets\battleOfSunaionBG.jpg" />
+    <Content Include="Assets\beforeTheStormBG.jpg" />
+    <Content Include="Assets\blueTeamBG.jpg" />
+    <Content Include="Assets\enemyLinesBG.jpg" />
+    <Content Include="Assets\evacuationBG.jpg" />
+    <Content Include="Assets\gensisBG.jpg" />
+    <Content Include="Assets\glassedBG.jpg" />
+    <Content Include="Assets\guardiansBG.jpg" />
+    <Content Include="Assets\h5background.jpg" />
+    <Content Include="Assets\intel\intel1.jpg" />
+    <Content Include="Assets\intel\intel100.jpg" />
+    <Content Include="Assets\intel\intel101.jpg" />
+    <Content Include="Assets\intel\intel102.jpg" />
+    <Content Include="Assets\intel\intel103.jpg" />
+    <Content Include="Assets\intel\intel104.jpg" />
+    <Content Include="Assets\intel\intel105.jpg" />
+    <Content Include="Assets\intel\intel106.jpg" />
+    <Content Include="Assets\intel\intel107.jpg" />
+    <Content Include="Assets\intel\intel108.jpg" />
+    <Content Include="Assets\intel\intel109.jpg" />
+    <Content Include="Assets\intel\intel10a.jpg" />
+    <Content Include="Assets\intel\intel10b.jpg" />
+    <Content Include="Assets\intel\intel110.jpg" />
+    <Content Include="Assets\intel\intel111.jpg" />
+    <Content Include="Assets\intel\intel112.jpg" />
+    <Content Include="Assets\intel\intel113.jpg" />
+    <Content Include="Assets\intel\intel114.jpg" />
+    <Content Include="Assets\intel\intel115.jpg" />
+    <Content Include="Assets\intel\intel116.jpg" />
+    <Content Include="Assets\intel\intel11a.jpg" />
+    <Content Include="Assets\intel\intel11b.jpg" />
+    <Content Include="Assets\intel\intel12.jpg" />
+    <Content Include="Assets\intel\intel13.jpg" />
+    <Content Include="Assets\intel\intel14.jpg" />
+    <Content Include="Assets\intel\intel15.jpg" />
+    <Content Include="Assets\intel\intel16.jpg" />
+    <Content Include="Assets\intel\intel17.jpg" />
+    <Content Include="Assets\intel\intel18.jpg" />
+    <Content Include="Assets\intel\intel19.jpg" />
+    <Content Include="Assets\intel\intel2.jpg" />
+    <Content Include="Assets\intel\intel20.jpg" />
+    <Content Include="Assets\intel\intel21.jpg" />
+    <Content Include="Assets\intel\intel22.jpg" />
+    <Content Include="Assets\intel\intel23.jpg" />
+    <Content Include="Assets\intel\intel24.jpg" />
+    <Content Include="Assets\intel\intel25.jpg" />
+    <Content Include="Assets\intel\intel26.jpg" />
+    <Content Include="Assets\intel\intel27.jpg" />
+    <Content Include="Assets\intel\intel28.jpg" />
+    <Content Include="Assets\intel\intel29.jpg" />
+    <Content Include="Assets\intel\intel3.jpg" />
+    <Content Include="Assets\intel\intel30.jpg" />
+    <Content Include="Assets\intel\intel31.jpg" />
+    <Content Include="Assets\intel\intel32.jpg" />
+    <Content Include="Assets\intel\intel33.jpg" />
+    <Content Include="Assets\intel\intel34.jpg" />
+    <Content Include="Assets\intel\intel35.jpg" />
+    <Content Include="Assets\intel\intel36.jpg" />
+    <Content Include="Assets\intel\intel37.jpg" />
+    <Content Include="Assets\intel\intel38.jpg" />
+    <Content Include="Assets\intel\intel39.jpg" />
+    <Content Include="Assets\intel\intel4.jpg" />
+    <Content Include="Assets\intel\intel40.jpg" />
+    <Content Include="Assets\intel\intel41.jpg" />
+    <Content Include="Assets\intel\intel42.jpg" />
+    <Content Include="Assets\intel\intel42andahalf.jpg" />
+    <Content Include="Assets\intel\intel43.jpg" />
+    <Content Include="Assets\intel\intel44.jpg" />
+    <Content Include="Assets\intel\intel45.jpg" />
+    <Content Include="Assets\intel\intel46.jpg" />
+    <Content Include="Assets\intel\intel47.jpg" />
+    <Content Include="Assets\intel\intel48.jpg" />
+    <Content Include="Assets\intel\intel49.jpg" />
+    <Content Include="Assets\intel\intel5.jpg" />
+    <Content Include="Assets\intel\intel50.jpg" />
+    <Content Include="Assets\intel\intel51a.jpg" />
+    <Content Include="Assets\intel\intel51b.jpg" />
+    <Content Include="Assets\intel\intel52.jpg" />
+    <Content Include="Assets\intel\intel53.jpg" />
+    <Content Include="Assets\intel\intel54.jpg" />
+    <Content Include="Assets\intel\intel55.jpg" />
+    <Content Include="Assets\intel\intel56.jpg" />
+    <Content Include="Assets\intel\intel57.jpg" />
+    <Content Include="Assets\intel\intel58a.jpg" />
+    <Content Include="Assets\intel\intel58b.jpg" />
+    <Content Include="Assets\intel\intel59.jpg" />
+    <Content Include="Assets\intel\intel6.jpg" />
+    <Content Include="Assets\intel\intel60.jpg" />
+    <Content Include="Assets\intel\intel61.jpg" />
+    <Content Include="Assets\intel\intel62.jpg" />
+    <Content Include="Assets\intel\intel63.jpg" />
+    <Content Include="Assets\intel\intel64.jpg" />
+    <Content Include="Assets\intel\intel65.jpg" />
+    <Content Include="Assets\intel\intel66.jpg" />
+    <Content Include="Assets\intel\intel67.jpg" />
+    <Content Include="Assets\intel\intel68.jpg" />
+    <Content Include="Assets\intel\intel69.jpg" />
+    <Content Include="Assets\intel\intel7.jpg" />
+    <Content Include="Assets\intel\intel70.jpg" />
+    <Content Include="Assets\intel\intel71.jpg" />
+    <Content Include="Assets\intel\intel72.jpg" />
+    <Content Include="Assets\intel\intel73.jpg" />
+    <Content Include="Assets\intel\intel74.jpg" />
+    <Content Include="Assets\intel\intel75.jpg" />
+    <Content Include="Assets\intel\intel76.jpg" />
+    <Content Include="Assets\intel\intel77.jpg" />
+    <Content Include="Assets\intel\intel78.jpg" />
+    <Content Include="Assets\intel\intel79.jpg" />
+    <Content Include="Assets\intel\intel8.jpg" />
+    <Content Include="Assets\intel\intel80.jpg" />
+    <Content Include="Assets\intel\intel81.jpg" />
+    <Content Include="Assets\intel\intel82.jpg" />
+    <Content Include="Assets\intel\intel83.jpg" />
+    <Content Include="Assets\intel\intel84.jpg" />
+    <Content Include="Assets\intel\intel85.jpg" />
+    <Content Include="Assets\intel\intel86.jpg" />
+    <Content Include="Assets\intel\intel87.jpg" />
+    <Content Include="Assets\intel\intel88.jpg" />
+    <Content Include="Assets\intel\intel89.jpg" />
+    <Content Include="Assets\intel\intel9.jpg" />
+    <Content Include="Assets\intel\intel90.jpg" />
+    <Content Include="Assets\intel\intel91.jpg" />
+    <Content Include="Assets\intel\intel92.jpg" />
+    <Content Include="Assets\intel\intel93.jpg" />
+    <Content Include="Assets\intel\intel94.jpg" />
+    <Content Include="Assets\intel\intel95.jpg" />
+    <Content Include="Assets\intel\intel96.jpg" />
+    <Content Include="Assets\intel\intel97.jpg" />
+    <Content Include="Assets\intel\intel98.jpg" />
+    <Content Include="Assets\intel\intel99.jpg" />
+    <Content Include="Assets\Logo.scale-100.png" />
+    <Content Include="Assets\meridianStationBG.jpg" />
+    <Content Include="Assets\osirisBG.jpg" />
+    <Content Include="Assets\reunionBG.jpg" />
+    <Content Include="Assets\skulls\skull1.jpg" />
+    <Content Include="Assets\skulls\skull10.jpg" />
+    <Content Include="Assets\skulls\skull11.jpg" />
+    <Content Include="Assets\skulls\skull12.jpg" />
+    <Content Include="Assets\skulls\skull13.jpg" />
+    <Content Include="Assets\skulls\skull2.jpg" />
+    <Content Include="Assets\skulls\skull3.jpg" />
+    <Content Include="Assets\skulls\skull4.jpg" />
+    <Content Include="Assets\skulls\skull5.jpg" />
+    <Content Include="Assets\skulls\skull6.jpg" />
+    <Content Include="Assets\skulls\skull7.jpg" />
+    <Content Include="Assets\skulls\skull8.jpg" />
+    <Content Include="Assets\skulls\skull9.jpg" />
+    <Content Include="Assets\SmallLogo.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Assets\swordsOfSangheliosBG.jpg" />
+    <Content Include="Assets\theBreakingBG.jpg" />
+    <Content Include="Assets\unconfirmedBG.jpg" />
+    <None Include="Package.StoreAssociation.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="alliancePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="battleOfSunaionPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="beforeTheStormPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="blueTeamPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="enemyLinesPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="evacuationPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="genesisPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="glassedPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="guardiansPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="meridianStationPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="osirisPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="reunionPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="swordsOfSangheliosPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="theBreakingPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="unconfirmedPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="..\DaraMacMeanmainApp2015.Shared\DaraMacMeanmainApp2015.Shared.projitems" Label="Shared" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

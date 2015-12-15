@@ -1,0 +1,732 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DARA</Machine>
+    <WindowsUser>Dara</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>5968DaraMacMeanmain.Halo5Guardians-IntelandSkullsG</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>313BC4380013CE6A639709EA65826456D4BB608A3CE0E5EDD757C343466BEEB6</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>5968DaraMacMeanmain.Halo5Guardians-IntelandSkullsG_1.1.0.0_neutral__zv91ywhpfj4bp</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>5968DaraMacMeanmain.Halo5Guardians-IntelandSkullsG_zv91ywhpfj4bp!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>5968DaraMacMeanmain.Halo5Guardians-IntelandSkullsG</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=97468A7F-B9E3-4CEE-BBCE-AAA19C6E02D7</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-15T02:11:08.807</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\bin\Debug\DaraMacMeanmainApp2015.Windows.exe">
+      <PackagePath>DaraMacMeanmainApp2015.Windows.exe</PackagePath>
+      <Modified>2015-12-15T02:11:08.399</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\allianceBG.jpg">
+      <PackagePath>Assets\allianceBG.jpg</PackagePath>
+      <Modified>2015-12-12T18:51:08.438</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\battleOfSunaionBG.jpg">
+      <PackagePath>Assets\battleOfSunaionBG.jpg</PackagePath>
+      <Modified>2015-12-12T18:51:08.441</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\beforeTheStormBG.jpg">
+      <PackagePath>Assets\beforeTheStormBG.jpg</PackagePath>
+      <Modified>2015-12-12T18:51:08.443</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\blueTeamBG.jpg">
+      <PackagePath>Assets\blueTeamBG.jpg</PackagePath>
+      <Modified>2015-12-12T18:51:08.447</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\enemyLinesBG.jpg">
+      <PackagePath>Assets\enemyLinesBG.jpg</PackagePath>
+      <Modified>2015-12-12T18:51:08.449</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\evacuationBG.jpg">
+      <PackagePath>Assets\evacuationBG.jpg</PackagePath>
+      <Modified>2015-12-12T18:51:08.452</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\gensisBG.jpg">
+      <PackagePath>Assets\gensisBG.jpg</PackagePath>
+      <Modified>2015-12-12T18:51:08.455</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\glassedBG.jpg">
+      <PackagePath>Assets\glassedBG.jpg</PackagePath>
+      <Modified>2015-12-12T18:51:08.457</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\guardiansBG.jpg">
+      <PackagePath>Assets\guardiansBG.jpg</PackagePath>
+      <Modified>2015-12-12T18:51:08.419</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\h5background.jpg">
+      <PackagePath>Assets\h5background.jpg</PackagePath>
+      <Modified>2015-12-12T15:09:21.182</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel1.jpg">
+      <PackagePath>Assets\intel\intel1.jpg</PackagePath>
+      <Modified>2015-12-13T14:06:48.954</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel100.jpg">
+      <PackagePath>Assets\intel\intel100.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:55.156</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel101.jpg">
+      <PackagePath>Assets\intel\intel101.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:55.158</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel102.jpg">
+      <PackagePath>Assets\intel\intel102.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:58.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel103.jpg">
+      <PackagePath>Assets\intel\intel103.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:58.929</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel104.jpg">
+      <PackagePath>Assets\intel\intel104.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:58.931</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel105.jpg">
+      <PackagePath>Assets\intel\intel105.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:58.933</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel106.jpg">
+      <PackagePath>Assets\intel\intel106.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:58.936</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel107.jpg">
+      <PackagePath>Assets\intel\intel107.jpg</PackagePath>
+      <Modified>2015-12-14T21:59:12.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel108.jpg">
+      <PackagePath>Assets\intel\intel108.jpg</PackagePath>
+      <Modified>2015-12-14T21:59:12.096</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel109.jpg">
+      <PackagePath>Assets\intel\intel109.jpg</PackagePath>
+      <Modified>2015-12-14T21:59:12.079</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel10a.jpg">
+      <PackagePath>Assets\intel\intel10a.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:01.177</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel10b.jpg">
+      <PackagePath>Assets\intel\intel10b.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:01.179</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel110.jpg">
+      <PackagePath>Assets\intel\intel110.jpg</PackagePath>
+      <Modified>2015-12-14T21:59:12.082</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel111.jpg">
+      <PackagePath>Assets\intel\intel111.jpg</PackagePath>
+      <Modified>2015-12-14T21:59:12.084</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel112.jpg">
+      <PackagePath>Assets\intel\intel112.jpg</PackagePath>
+      <Modified>2015-12-14T21:59:12.086</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel113.jpg">
+      <PackagePath>Assets\intel\intel113.jpg</PackagePath>
+      <Modified>2015-12-14T21:59:12.088</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel114.jpg">
+      <PackagePath>Assets\intel\intel114.jpg</PackagePath>
+      <Modified>2015-12-14T21:59:12.089</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel115.jpg">
+      <PackagePath>Assets\intel\intel115.jpg</PackagePath>
+      <Modified>2015-12-14T21:59:12.091</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel116.jpg">
+      <PackagePath>Assets\intel\intel116.jpg</PackagePath>
+      <Modified>2015-12-14T21:59:12.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel11a.jpg">
+      <PackagePath>Assets\intel\intel11a.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:01.199</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel11b.jpg">
+      <PackagePath>Assets\intel\intel11b.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:01.201</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel12.jpg">
+      <PackagePath>Assets\intel\intel12.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:01.203</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel13.jpg">
+      <PackagePath>Assets\intel\intel13.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:01.205</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel14.jpg">
+      <PackagePath>Assets\intel\intel14.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:01.206</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel15.jpg">
+      <PackagePath>Assets\intel\intel15.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:01.208</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel16.jpg">
+      <PackagePath>Assets\intel\intel16.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:11.395</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel17.jpg">
+      <PackagePath>Assets\intel\intel17.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:11.396</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel18.jpg">
+      <PackagePath>Assets\intel\intel18.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:11.398</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel19.jpg">
+      <PackagePath>Assets\intel\intel19.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:11.360</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel2.jpg">
+      <PackagePath>Assets\intel\intel2.jpg</PackagePath>
+      <Modified>2015-12-13T14:06:48.956</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel20.jpg">
+      <PackagePath>Assets\intel\intel20.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:11.363</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel21.jpg">
+      <PackagePath>Assets\intel\intel21.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:11.365</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel22.jpg">
+      <PackagePath>Assets\intel\intel22.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:17.524</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel23.jpg">
+      <PackagePath>Assets\intel\intel23.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:17.527</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel24.jpg">
+      <PackagePath>Assets\intel\intel24.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:17.529</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel25.jpg">
+      <PackagePath>Assets\intel\intel25.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:17.530</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel26.jpg">
+      <PackagePath>Assets\intel\intel26.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:17.532</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel27.jpg">
+      <PackagePath>Assets\intel\intel27.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:17.534</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel28.jpg">
+      <PackagePath>Assets\intel\intel28.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:17.535</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel29.jpg">
+      <PackagePath>Assets\intel\intel29.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:17.523</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel3.jpg">
+      <PackagePath>Assets\intel\intel3.jpg</PackagePath>
+      <Modified>2015-12-13T14:06:48.936</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel30.jpg">
+      <PackagePath>Assets\intel\intel30.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:21.955</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel31.jpg">
+      <PackagePath>Assets\intel\intel31.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:21.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel32.jpg">
+      <PackagePath>Assets\intel\intel32.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:21.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel33.jpg">
+      <PackagePath>Assets\intel\intel33.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:21.989</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel34.jpg">
+      <PackagePath>Assets\intel\intel34.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:21.942</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel35.jpg">
+      <PackagePath>Assets\intel\intel35.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:21.944</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel36.jpg">
+      <PackagePath>Assets\intel\intel36.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:21.946</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel37.jpg">
+      <PackagePath>Assets\intel\intel37.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:26.030</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel38.jpg">
+      <PackagePath>Assets\intel\intel38.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:26.032</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel39.jpg">
+      <PackagePath>Assets\intel\intel39.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:26.022</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel4.jpg">
+      <PackagePath>Assets\intel\intel4.jpg</PackagePath>
+      <Modified>2015-12-13T14:06:48.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel40.jpg">
+      <PackagePath>Assets\intel\intel40.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:26.023</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel41.jpg">
+      <PackagePath>Assets\intel\intel41.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:26.025</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel42.jpg">
+      <PackagePath>Assets\intel\intel42.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:26.027</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel42andahalf.jpg">
+      <PackagePath>Assets\intel\intel42andahalf.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:30.417</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel43.jpg">
+      <PackagePath>Assets\intel\intel43.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:30.418</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel44.jpg">
+      <PackagePath>Assets\intel\intel44.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:30.421</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel45.jpg">
+      <PackagePath>Assets\intel\intel45.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:30.409</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel46.jpg">
+      <PackagePath>Assets\intel\intel46.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:30.411</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel47.jpg">
+      <PackagePath>Assets\intel\intel47.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:30.413</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel48.jpg">
+      <PackagePath>Assets\intel\intel48.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:30.415</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel49.jpg">
+      <PackagePath>Assets\intel\intel49.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:34.790</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel5.jpg">
+      <PackagePath>Assets\intel\intel5.jpg</PackagePath>
+      <Modified>2015-12-13T14:06:48.939</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel50.jpg">
+      <PackagePath>Assets\intel\intel50.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:34.792</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel51a.jpg">
+      <PackagePath>Assets\intel\intel51a.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:34.794</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel51b.jpg">
+      <PackagePath>Assets\intel\intel51b.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:34.795</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel52.jpg">
+      <PackagePath>Assets\intel\intel52.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:34.797</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel53.jpg">
+      <PackagePath>Assets\intel\intel53.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:34.799</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel54.jpg">
+      <PackagePath>Assets\intel\intel54.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:34.769</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel55.jpg">
+      <PackagePath>Assets\intel\intel55.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:34.772</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel56.jpg">
+      <PackagePath>Assets\intel\intel56.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:34.773</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel57.jpg">
+      <PackagePath>Assets\intel\intel57.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:34.776</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel58a.jpg">
+      <PackagePath>Assets\intel\intel58a.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:34.777</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel58b.jpg">
+      <PackagePath>Assets\intel\intel58b.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:34.779</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel59.jpg">
+      <PackagePath>Assets\intel\intel59.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:34.781</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel6.jpg">
+      <PackagePath>Assets\intel\intel6.jpg</PackagePath>
+      <Modified>2015-12-13T14:06:48.951</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel60.jpg">
+      <PackagePath>Assets\intel\intel60.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:34.789</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel61.jpg">
+      <PackagePath>Assets\intel\intel61.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:39.041</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel62.jpg">
+      <PackagePath>Assets\intel\intel62.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:39.043</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel63.jpg">
+      <PackagePath>Assets\intel\intel63.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:39.028</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel64.jpg">
+      <PackagePath>Assets\intel\intel64.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:39.030</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel65.jpg">
+      <PackagePath>Assets\intel\intel65.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:39.032</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel66.jpg">
+      <PackagePath>Assets\intel\intel66.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:39.034</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel67.jpg">
+      <PackagePath>Assets\intel\intel67.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:39.038</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel68.jpg">
+      <PackagePath>Assets\intel\intel68.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:39.040</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel69.jpg">
+      <PackagePath>Assets\intel\intel69.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:43.081</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel7.jpg">
+      <PackagePath>Assets\intel\intel7.jpg</PackagePath>
+      <Modified>2015-12-13T14:06:48.953</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel70.jpg">
+      <PackagePath>Assets\intel\intel70.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:43.083</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel71.jpg">
+      <PackagePath>Assets\intel\intel71.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:43.084</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel72.jpg">
+      <PackagePath>Assets\intel\intel72.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:43.068</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel73.jpg">
+      <PackagePath>Assets\intel\intel73.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:43.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel74.jpg">
+      <PackagePath>Assets\intel\intel74.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:43.072</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel75.jpg">
+      <PackagePath>Assets\intel\intel75.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:43.074</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel76.jpg">
+      <PackagePath>Assets\intel\intel76.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:43.076</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel77.jpg">
+      <PackagePath>Assets\intel\intel77.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:43.078</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel78.jpg">
+      <PackagePath>Assets\intel\intel78.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:43.079</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel79.jpg">
+      <PackagePath>Assets\intel\intel79.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:47.127</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel8.jpg">
+      <PackagePath>Assets\intel\intel8.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:01.210</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel80.jpg">
+      <PackagePath>Assets\intel\intel80.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:47.128</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel81.jpg">
+      <PackagePath>Assets\intel\intel81.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:47.121</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel82.jpg">
+      <PackagePath>Assets\intel\intel82.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:47.123</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel83.jpg">
+      <PackagePath>Assets\intel\intel83.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:47.125</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel84.jpg">
+      <PackagePath>Assets\intel\intel84.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:51.249</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel85.jpg">
+      <PackagePath>Assets\intel\intel85.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:51.251</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel86.jpg">
+      <PackagePath>Assets\intel\intel86.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:51.237</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel87.jpg">
+      <PackagePath>Assets\intel\intel87.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:51.239</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel88.jpg">
+      <PackagePath>Assets\intel\intel88.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:51.242</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel89.jpg">
+      <PackagePath>Assets\intel\intel89.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:51.244</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel9.jpg">
+      <PackagePath>Assets\intel\intel9.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:01.212</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel90.jpg">
+      <PackagePath>Assets\intel\intel90.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:51.245</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel91.jpg">
+      <PackagePath>Assets\intel\intel91.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:51.247</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel92.jpg">
+      <PackagePath>Assets\intel\intel92.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:55.160</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel93.jpg">
+      <PackagePath>Assets\intel\intel93.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:55.161</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel94.jpg">
+      <PackagePath>Assets\intel\intel94.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:55.163</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel95.jpg">
+      <PackagePath>Assets\intel\intel95.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:55.145</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel96.jpg">
+      <PackagePath>Assets\intel\intel96.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:55.147</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel97.jpg">
+      <PackagePath>Assets\intel\intel97.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:55.149</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel98.jpg">
+      <PackagePath>Assets\intel\intel98.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:55.152</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\intel\intel99.jpg">
+      <PackagePath>Assets\intel\intel99.jpg</PackagePath>
+      <Modified>2015-12-13T14:07:55.154</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\meridianStationBG.jpg">
+      <PackagePath>Assets\meridianStationBG.jpg</PackagePath>
+      <Modified>2015-12-12T18:51:08.421</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\osirisBG.jpg">
+      <PackagePath>Assets\osirisBG.jpg</PackagePath>
+      <Modified>2015-12-12T18:51:08.424</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\reunionBG.jpg">
+      <PackagePath>Assets\reunionBG.jpg</PackagePath>
+      <Modified>2015-12-12T18:51:08.426</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\skulls\skull1.jpg">
+      <PackagePath>Assets\skulls\skull1.jpg</PackagePath>
+      <Modified>2015-12-14T22:33:45.972</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\skulls\skull10.jpg">
+      <PackagePath>Assets\skulls\skull10.jpg</PackagePath>
+      <Modified>2015-12-14T22:33:45.960</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\skulls\skull11.jpg">
+      <PackagePath>Assets\skulls\skull11.jpg</PackagePath>
+      <Modified>2015-12-14T22:33:45.964</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\skulls\skull12.jpg">
+      <PackagePath>Assets\skulls\skull12.jpg</PackagePath>
+      <Modified>2015-12-14T22:33:45.967</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\skulls\skull13.jpg">
+      <PackagePath>Assets\skulls\skull13.jpg</PackagePath>
+      <Modified>2015-12-14T22:33:45.970</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\skulls\skull2.jpg">
+      <PackagePath>Assets\skulls\skull2.jpg</PackagePath>
+      <Modified>2015-12-14T22:33:45.975</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\skulls\skull3.jpg">
+      <PackagePath>Assets\skulls\skull3.jpg</PackagePath>
+      <Modified>2015-12-14T22:33:45.977</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\skulls\skull4.jpg">
+      <PackagePath>Assets\skulls\skull4.jpg</PackagePath>
+      <Modified>2015-12-14T22:33:45.980</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\skulls\skull5.jpg">
+      <PackagePath>Assets\skulls\skull5.jpg</PackagePath>
+      <Modified>2015-12-14T22:33:45.983</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\skulls\skull6.jpg">
+      <PackagePath>Assets\skulls\skull6.jpg</PackagePath>
+      <Modified>2015-12-14T22:33:45.950</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\skulls\skull7.jpg">
+      <PackagePath>Assets\skulls\skull7.jpg</PackagePath>
+      <Modified>2015-12-14T22:33:45.953</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\skulls\skull8.jpg">
+      <PackagePath>Assets\skulls\skull8.jpg</PackagePath>
+      <Modified>2015-12-14T22:33:45.955</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\skulls\skull9.jpg">
+      <PackagePath>Assets\skulls\skull9.jpg</PackagePath>
+      <Modified>2015-12-14T22:33:45.958</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\swordsOfSangheliosBG.jpg">
+      <PackagePath>Assets\swordsOfSangheliosBG.jpg</PackagePath>
+      <Modified>2015-12-12T18:51:08.429</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\theBreakingBG.jpg">
+      <PackagePath>Assets\theBreakingBG.jpg</PackagePath>
+      <Modified>2015-12-12T18:51:08.432</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\unconfirmedBG.jpg">
+      <PackagePath>Assets\unconfirmedBG.jpg</PackagePath>
+      <Modified>2015-12-12T18:51:08.435</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-15T01:04:10.609</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-15T01:01:24.901</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-15T01:01:52.185</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-15T01:02:36.957</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\bin\Debug\DaraMacMeanmainApp2015.Windows.xr.xml">
+      <PackagePath>DaraMacMeanmainApp2015.Windows.xr.xml</PackagePath>
+      <Modified>2015-12-15T00:50:31.295</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-12-12T15:24:40.033</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\bin\Debug\alliancePage.xbf">
+      <PackagePath>alliancePage.xbf</PackagePath>
+      <Modified>2015-12-14T23:47:10.670</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\bin\Debug\battleOfSunaionPage.xbf">
+      <PackagePath>battleOfSunaionPage.xbf</PackagePath>
+      <Modified>2015-12-14T23:47:10.673</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\bin\Debug\beforeTheStormPage.xbf">
+      <PackagePath>beforeTheStormPage.xbf</PackagePath>
+      <Modified>2015-12-14T23:47:10.677</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\bin\Debug\blueTeamPage.xbf">
+      <PackagePath>blueTeamPage.xbf</PackagePath>
+      <Modified>2015-12-14T23:47:10.681</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\bin\Debug\enemyLinesPage.xbf">
+      <PackagePath>enemyLinesPage.xbf</PackagePath>
+      <Modified>2015-12-14T23:47:10.684</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\bin\Debug\evacuationPage.xbf">
+      <PackagePath>evacuationPage.xbf</PackagePath>
+      <Modified>2015-12-14T23:47:10.688</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\bin\Debug\genesisPage.xbf">
+      <PackagePath>genesisPage.xbf</PackagePath>
+      <Modified>2015-12-14T23:47:10.692</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\bin\Debug\glassedPage.xbf">
+      <PackagePath>glassedPage.xbf</PackagePath>
+      <Modified>2015-12-14T23:47:10.696</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\bin\Debug\guardiansPage.xbf">
+      <PackagePath>guardiansPage.xbf</PackagePath>
+      <Modified>2015-12-14T23:47:10.700</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-12-15T00:50:31.311</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\bin\Debug\meridianStationPage.xbf">
+      <PackagePath>meridianStationPage.xbf</PackagePath>
+      <Modified>2015-12-14T23:47:10.703</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\bin\Debug\osirisPage.xbf">
+      <PackagePath>osirisPage.xbf</PackagePath>
+      <Modified>2015-12-14T23:47:10.706</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\bin\Debug\reunionPage.xbf">
+      <PackagePath>reunionPage.xbf</PackagePath>
+      <Modified>2015-12-14T23:47:10.710</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\bin\Debug\swordsOfSangheliosPage.xbf">
+      <PackagePath>swordsOfSangheliosPage.xbf</PackagePath>
+      <Modified>2015-12-14T23:47:10.714</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\bin\Debug\theBreakingPage.xbf">
+      <PackagePath>theBreakingPage.xbf</PackagePath>
+      <Modified>2015-12-14T23:47:10.717</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\bin\Debug\unconfirmedPage.xbf">
+      <PackagePath>unconfirmedPage.xbf</PackagePath>
+      <Modified>2015-12-14T23:47:10.721</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\documents\visual studio 2015\Projects\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015\DaraMacMeanmainApp2015.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-12-15T02:11:08.574</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
